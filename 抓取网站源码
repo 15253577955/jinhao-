@@ -1,0 +1,12 @@
+<h1 class="wo-entry-title">网页源代码读取工具</h1>
+<div class="wo-entry-time" timestamp="1523589233">2021-05-21 11:13:53 +0800</div>
+<div class="wo-entry-section wo-text-markdown"><script type="text/javascript"> 
+//用于创建XMLHttpRequest对象 
+function createXmlHttp() { 
+//根据window.XMLHttpRequest对象是否存在使用不同的创建方式 
+if (window.XMLHttpRequest) { 
+xmlHttp = new XMLHttpRequest(); //FireFox、Opera等浏览器支持的创建方式 
+} else { 
+xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");//IE浏览器支持的创建方式 
+} 
+} 
